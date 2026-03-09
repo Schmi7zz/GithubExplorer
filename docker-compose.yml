@@ -1,0 +1,32 @@
+services:
+  telegram-bot-api:
+    image: aiogram/telegram-bot-api:latest
+    container_name: tg_api_server
+    environment:
+      TELEGRAM_API_ID: ${TELEGRAM_API_ID}
+      TELEGRAM_API_HASH: ${TELEGRAM_API_HASH}
+    command: ["--local", "--api-id=${TELEGRAM_API_ID}", "--api-hash=${TELEGRAM_API_HASH}"]
+    volumes:
+      - tg-data:/var/lib/telegram-bot-api
+    ports:
+      - "8081:8081"
+    restart: always
+
+  bot:
+    build: .
+    container_name: github_bot
+    depends_on:
+      - telegram-bot-api
+    environment:
+      - PYTHONUNBUFFERED=1
+      - BOT_TOKEN=${BOT_TOKEN}
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+      - ADMIN_IDS=${ADMIN_IDS}
+      - LOCAL_API_URL=http://tg_api_server:8081/bot
+    volumes:
+      - bot-data:/app/data
+    restart: always
+
+volumes:
+  tg-data:
+  bot-data:
