@@ -78,7 +78,7 @@ The Linux kernel source tree
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/github-explorer-bot.git
+git clone https://github.com/Schmi7zz/github-explorer-bot.git
 cd github-explorer-bot
 ```
 
