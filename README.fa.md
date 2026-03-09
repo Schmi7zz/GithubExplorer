@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo.png" width="150" alt="GitHub Explorer Bot">
+
 # 🐙 GitHub Explorer Bot
 
 **ربات تلگرامی قدرتمند برای کاوش ریپازیتوری‌های گیتهاب — مستقیم از چت تلگرام**

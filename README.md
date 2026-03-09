@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cceb170e862e01ef cebd23a/topics/github/github.png" width="100" alt="logo">
+<img src="logo.png" width="150" alt="GitHub Explorer Bot">
 
 # 🐙 GitHub Explorer Bot
 
