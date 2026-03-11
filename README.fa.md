@@ -1,20 +1,19 @@
 <div align="center">
 
-<img src="logo.png" width="150" alt="GitHub Explorer Bot">
+<img src="logo.png" width="140" alt="GitHub Explorer Bot">
 
 # 🐙 GitHub Explorer Bot
 
-**ربات تلگرامی قدرتمند برای کاوش ریپازیتوری‌های گیتهاب — مستقیم از چت تلگرام**
+**ربات تلگرامی قدرتمند برای کاوش ریپازیتوری‌های گیتهاب — مستقیم از چت**
 
-مرور فایل‌ها، دانلود ریلیزها، مشاهده README، بررسی آمار — بدون خروج از تلگرام.
+مرور فایل‌ها · دانلود ریلیز · مشاهده README · آمار پروژه — بدون خروج از تلگرام
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-yellow.svg)](https://python.org)
-[![Telegram Bot](https://img.shields.io/badge/Telegram-Bot-26A5E4.svg?logo=telegram)](https://t.me/SchmitzWS)
+[![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)](docker-compose.yml)
+[![Telegram](https://img.shields.io/badge/Telegram-Bot-26A5E4?logo=telegram)](https://t.me/SchmitzWS)
 
----
-
-[امکانات](#-امکانات) • [دمو](#-دمو) • [شروع سریع](#-شروع-سریع) • [تنظیمات](#-تنظیمات) • [دیپلوی](#-دیپلوی) • [کانال تلگرام](https://t.me/SchmitzWS)
+[امکانات](#-امکانات) · [دمو](#-دمو) · [نصب سریع](#-نصب-سریع) · [تنظیمات](#%EF%B8%8F-تنظیمات) · [معماری](#-معماری)
 
 **[🇬🇧 English](README.md)**
 
@@ -24,30 +23,30 @@
 
 ## ✨ امکانات
 
-| قابلیت | توضیحات |
-|--------|---------|
+| قابلیت | توضیح |
+|--------|-------|
 | 📁 **مرور فایل‌ها** | پیمایش فایل‌ها و پوشه‌های ریپو با صفحه‌بندی |
-| 🏷 **ریلیزها** | مشاهده ریلیزها، فایل‌ها، تعداد دانلود — و دانلود مستقیم |
+| 🏷 **ریلیزها** | مشاهده تمام ریلیزها، فایل‌ها، تعداد دانلود و دانلود مستقیم |
 | 🌿 **برنچ‌ها** | لیست تمام برنچ‌های ریپازیتوری |
-| 📝 **نمایش README** | خواندن README بدون خروج از تلگرام |
-| 👥 **مشارکت‌کنندگان** | لیست افرادی که در پروژه مشارکت داشتن |
-| 📊 **آمار زبان‌ها** | نمودار بصری زبان‌های استفاده شده |
-| ⬇️ **دانلود سورس** | دانلود کل ریپازیتوری به صورت ZIP |
-| 📢 **اطلاع‌رسانی** | ارسال پیام به همه کاربران (ادمین) |
-| 👤 **مدیریت کاربران** | مشاهده لیست کاربران با `/users` (ادمین) |
-| 🚀 **فایل‌های حجیم** | پشتیبانی از فایل تا **۲ گیگابایت** با Local Bot API |
+| 📝 **نمایش README** | خواندن فایل README بدون ترک تلگرام |
+| 👥 **مشارکت‌کنندگان** | لیست contributors به همراه تعداد commit |
+| 📊 **آمار زبان‌ها** | نمودار بصری زبان‌های برنامه‌نویسی استفاده‌شده |
+| ⬇️ **دانلود ZIP** | دانلود کامل سورس‌کد ریپازیتوری به صورت فشرده |
+| 📢 **Broadcast** | ارسال پیام همگانی به تمام کاربران ربات (ادمین) |
+| 👤 **مدیریت کاربران** | مشاهده لیست کاربران ربات با دستور `/users` (ادمین) |
+| 🚀 **فایل‌های بزرگ** | پشتیبانی از فایل تا **۲ گیگابایت** با Local Bot API |
 
 ---
 
 ## 🎬 دمو
 
-کافیه لینک هر ریپوی گیتهاب رو به ربات بفرستی:
+یک لینک GitHub به ربات بفرست:
 
 ```
 https://github.com/torvalds/linux
 ```
 
-ربات فوراً اطلاعات ریپو رو با دکمه‌های تعاملی نشون میده:
+ربات بلافاصله اطلاعات کامل ریپو را با دکمه‌های تعاملی نمایش می‌دهد:
 
 ```
 🐙 torvalds/linux
@@ -59,146 +58,165 @@ The Linux kernel source tree
 💾 Size: 4.8 GB       🌿 Branch: master
 🛠 Language: C         📜 License: GPL-2.0
 
-[ 📁 فایل‌ها ] [ 🏷 ریلیزها ]
-[ 🌿 برنچ‌ها ] [ 📝 README ]
-[ 👥 مشارکت‌کنندگان ] [ 📊 زبان‌ها ]
-[ ⬇️ دانلود ZIP ]
+[ 📁 Files ]        [ 🏷 Releases ]
+[ 🌿 Branches ]     [ 📝 README ]
+[ 👥 Contributors ] [ 📊 Languages ]
+[ ⬇️ Download ZIP ]
 ```
 
 ---
 
-## 🚀 شروع سریع
+## 🚀 نصب سریع
 
-### پیش‌نیازها
-
-- Docker و Docker Compose
-- توکن ربات تلگرام از [@BotFather](https://t.me/BotFather)
-- اطلاعات API تلگرام از [my.telegram.org](https://my.telegram.org)
-
-### ۱. کلون کردن ریپازیتوری
+### روش ۱ — اسکریپت خودکار (پیشنهادی)
 
 ```bash
-git clone https://github.com/Schmi7zz/github-explorer-bot.git
-cd github-explorer-bot
+bash <(curl -fsSL https://raw.githubusercontent.com/Schmi7zz/GithubExplorer/main/install.sh)
 ```
 
-### ۲. تنظیم محیط
+اسکریپت تمام مراحل را خودکار انجام می‌دهد: نصب Docker در صورت نیاز، کلون پروژه، ساخت `.env` و راه‌اندازی ربات.
+
+---
+
+### روش ۲ — نصب دستی
+
+#### پیش‌نیازها
+
+- [Docker](https://docs.docker.com/get-docker/) و Docker Compose
+- توکن ربات از [@BotFather](https://t.me/BotFather)
+- اطلاعات API از [my.telegram.org](https://my.telegram.org)
+
+#### ۱. کلون کردن
 
 ```bash
-cp .env.example .env
+git clone https://github.com/Schmi7zz/GithubExplorer.git
+cd GithubExplorer
+```
+
+#### ۲. ساخت فایل `.env`
+
+```bash
+cp env.example .env
 nano .env
 ```
 
-اطلاعاتت رو وارد کن:
+اطلاعات را وارد کنید:
 
 ```env
 BOT_TOKEN=123456:ABC-DEF...
-ADMIN_IDS=آیدی_عددی_تلگرامت
+ADMIN_IDS=123456789
 TELEGRAM_API_ID=12345678
 TELEGRAM_API_HASH=abcdef1234567890abcdef
+GITHUB_TOKEN=                         # اختیاری
 ```
 
-### ۳. اجرا
+#### ۳. اجرا
 
 ```bash
-docker-compose up -d --build
+docker compose up -d --build
 ```
 
-تمام! یه لینک گیتهاب به ربات بفرست و شروع کن.
+تمام! ربات آماده است.
 
 ---
 
 ## ⚙️ تنظیمات
 
-| متغیر | الزامی | توضیحات |
-|--------|--------|---------|
-| `BOT_TOKEN` | ✅ | توکن ربات از @BotFather |
-| `ADMIN_IDS` | ✅ | آیدی عددی تلگرام ادمین‌ها (با کاما جدا کن) |
-| `TELEGRAM_API_ID` | ✅ | از [my.telegram.org](https://my.telegram.org) |
-| `TELEGRAM_API_HASH` | ✅ | از [my.telegram.org](https://my.telegram.org) |
-| `GITHUB_TOKEN` | ❌ | توکن گیتهاب — محدودیت API رو از ۶۰ به ۵۰۰۰ درخواست/ساعت میبره |
+| متغیر | اجباری | توضیح |
+|-------|--------|-------|
+| `BOT_TOKEN` | ✅ | توکن ربات از [@BotFather](https://t.me/BotFather) |
+| `ADMIN_IDS` | ✅ | آیدی عددی تلگرام ادمین‌ها — برای چند نفر با کاما جدا کنید |
+| `TELEGRAM_API_ID` | ✅ | از [my.telegram.org](https://my.telegram.org/apps) |
+| `TELEGRAM_API_HASH` | ✅ | از [my.telegram.org](https://my.telegram.org/apps) |
+| `GITHUB_TOKEN` | ❌ | توکن GitHub — rate limit را از ۶۰ به ۵۰۰۰ درخواست/ساعت می‌رساند |
 
-### گرفتن توکن گیتهاب (اختیاری ولی پیشنهادی)
-
-1. برو به [github.com/settings/tokens](https://github.com/settings/tokens)
-2. یه توکن **classic** با دسترسی `public_repo` بساز
-3. توی فایل `.env` اضافه‌ش کن
+> **دریافت GitHub Token (اختیاری اما توصیه‌شده)**
+> ۱. به [github.com/settings/tokens](https://github.com/settings/tokens) بروید
+> ۲. یک توکن **Classic** با scope ‏`public_repo` بسازید
+> ۳. در فایل `.env` اضافه کنید
 
 ---
 
-## 🐳 دیپلوی
+## 🏗 معماری
 
-### معماری
+ربات از **Telegram Local Bot API Server** استفاده می‌کند که محدودیت ۵۰ مگابایت را برمی‌دارد و امکان دانلود فایل تا ۲ گیگابایت را فراهم می‌کند.
 
 ```
-┌─────────────────┐     ┌──────────────────────┐
-│  Telegram Cloud  │◄───►│  Local Bot API Server │
-└─────────────────┘     │  (بدون محدودیت ۵۰MB)  │
-                        └──────────┬───────────┘
-                                   │
-                        ┌──────────▼───────────┐
-                        │   GitHub Explorer Bot  │
-                        │   (Python 3.10)        │
-                        └──────────┬───────────┘
-                                   │
-                        ┌──────────▼───────────┐
-                        │   GitHub API           │
-                        └──────────────────────┘
+┌─────────────────────┐        ┌────────────────────────────┐
+│   Telegram Cloud    │ ◄────► │   Local Bot API Server     │
+└─────────────────────┘        │   (بدون محدودیت ۵۰ مگ)    │
+                                └──────────────┬─────────────┘
+                                               │
+                                ┌──────────────▼─────────────┐
+                                │    GitHub Explorer Bot     │
+                                │       Python 3.10          │
+                                └──────────────┬─────────────┘
+                                               │
+                                ┌──────────────▼─────────────┐
+                                │        GitHub API          │
+                                └────────────────────────────┘
 ```
 
-ربات از **Telegram Local Bot API Server** استفاده می‌کنه که محدودیت ۵۰ مگابایت آپلود رو برمیداره و اجازه دانلود تا ~۲ گیگابایت رو میده.
-
-### دستورات
+### دستورات Docker
 
 ```bash
-# شروع
-docker-compose up -d --build
+# اجرا و بیلد
+docker compose up -d --build
 
-# مشاهده لاگ
-docker-compose logs -f bot
+# مشاهده لاگ زنده ربات
+docker compose logs -f bot
 
-# توقف
-docker-compose down
+# مشاهده لاگ Local API
+docker compose logs -f telegram-bot-api
 
-# بازسازی بعد از تغییر کد
-docker-compose up -d --build
+# وضعیت container ها
+docker compose ps
+
+# ری‌استارت ربات
+docker compose restart bot
+
+# توقف کامل
+docker compose down
 ```
-
-### دستورات ادمین
-
-| دستور | توضیحات |
-|-------|---------|
-| `/start` | پیام خوش‌آمد (همه کاربران) |
-| `/users` | لیست کاربران ربات (فقط ادمین) |
-| `/broadcast <پیام>` | ارسال پیام به همه کاربران (فقط ادمین) |
 
 ---
 
-## 🏗 ساختار پروژه
+## 🤖 دستورات ربات
+
+| دستور | دسترسی | توضیح |
+|-------|---------|-------|
+| `/start` | همه | پیام خوش‌آمدگویی |
+| `/users` | ادمین | لیست تمام کاربران ربات |
+| `/broadcast <پیام>` | ادمین | ارسال پیام به همه کاربران |
+| لینک GitHub | همه | نمایش اطلاعات و منوی تعاملی ریپو |
+
+---
+
+## 📁 ساختار پروژه
 
 ```
-github-explorer-bot/
+GithubExplorer/
 ├── github_telegram_bot.py   # کد اصلی ربات
-├── Dockerfile               # ایمیج کانتینر
-├── docker-compose.yml       # مدیریت سرویس‌ها
-├── .env.example             # قالب محیط
-├── .gitignore
-├── LICENSE
+├── Dockerfile               # تعریف image کانتینر
+├── docker-compose.yml       # تنظیمات سرویس‌ها
+├── env.example              # قالب متغیرهای محیطی
+├── install.sh               # اسکریپت نصب خودکار
 ├── README.md                # مستندات انگلیسی
-└── README.fa.md             # مستندات فارسی
+├── README.fa.md             # مستندات فارسی
+└── LICENSE                  # مجوز MIT
 ```
 
 ---
 
 ## 🤝 مشارکت
 
-مشارکت شما خوش‌آمده! کافیه:
+مشارکت شما خوش‌آمد است:
 
-1. ریپو رو Fork کنی
-2. یه برنچ بسازی (`git checkout -b feature/amazing`)
-3. تغییراتت رو کامیت کنی (`git commit -m 'Add amazing feature'`)
-4. پوش کنی (`git push origin feature/amazing`)
-5. Pull Request باز کنی
+1. ریپو را **Fork** کنید
+2. برنچ جدید بسازید: `git checkout -b feature/my-feature`
+3. تغییرات را commit کنید: `git commit -m 'feat: add my feature'`
+4. push کنید: `git push origin feature/my-feature`
+5. یک **Pull Request** باز کنید
 
 ---
 
@@ -206,16 +224,10 @@ github-explorer-bot/
 
 <div align="center">
 
-[![Telegram Channel](https://img.shields.io/badge/Telegram-کانال-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SchmitzWS)
+[![Telegram](https://img.shields.io/badge/Telegram-کانال-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SchmitzWS)
 
-**ساخته شده با 🖤 توسط [Schmitz](https://t.me/SchmitzWS)**
+ساخته شده با 🖤 توسط **[Schmitz](https://t.me/SchmitzWS)**
 
-</div>
-
----
-
-<div align="center">
-
-اگه به دردت خورد، یه ⭐ بزن
+اگر مفید بود، یک ⭐ بزنید!
 
 </div>
