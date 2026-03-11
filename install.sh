@@ -259,6 +259,9 @@ echo -e "${BOLD}${GREEN}╚═════════════════�
 echo ""
 echo -e "  ${BOLD}📁 محل نصب:${RESET}  $INSTALL_DIR"
 echo ""
+echo -e "  ${BOLD}${YELLOW}⚠️  برای اجرای دستورات، ابتدا وارد پوشه پروژه شوید:${RESET}"
+echo -e "  ${CYAN}cd $INSTALL_DIR${RESET}"
+echo ""
 echo -e "  ${BOLD}دستورات مفید:${RESET}"
 echo -e "  ${CYAN}$COMPOSE_CMD logs -f bot${RESET}               # لاگ زنده ربات"
 echo -e "  ${CYAN}$COMPOSE_CMD logs -f telegram-bot-api${RESET}  # لاگ Local API Server"
@@ -275,3 +278,8 @@ echo ""
 echo -e "  ${YELLOW}💡 یک لینک GitHub برای ربات ارسال کنید تا شروع به کار کند!${RESET}"
 echo -e "  ${YELLOW}   مثال: https://github.com/torvalds/linux${RESET}"
 echo ""
+
+# ── رفتن به پوشه پروژه در پایان ─────────────────────────────
+echo -e "${BOLD}در حال انتقال به پوشه پروژه...${RESET}"
+cd "$INSTALL_DIR"
+exec $SHELL
