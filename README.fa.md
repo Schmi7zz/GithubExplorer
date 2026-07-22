@@ -226,8 +226,7 @@ GithubExplorer/
 
 [![Telegram](https://img.shields.io/badge/Telegram-کانال-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SchmitzWS)
 
-ساخته شده با 🖤 توسط **[Schmitz](https://t.me/SchmitzWS)**
-
+ساخته شده با 🖤 توسط Schmitz
 اگر مفید بود، یک ⭐ بزنید!
 
 </div>
